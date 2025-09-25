@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.css-margin {
+  margin-bottom: 3px;
+}
+
+.clo {
+  color: rgb(68, 63, 63);
+}
+.grrd {
+  display: flex;
+  justify-content: space-between;
+  font-size: larger;
+}
+.grr {
+  display: grid;
+  grid-template-columns: 103px 0px;
+}
+.btncolor {
+  color: aliceblue;
+  background-color: #3751fe;
+}
+.box2 {
+  background-color: rgba(229, 229, 229, 0.41);
+}
+.heigh {
+  height: auto;
+}
+
+/* my skills hover effect  */
+.skill-heading {
+  position: relative;
+}
+
+.skill-heading:hover::before {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 100%; /* Full width on hover */
+  height: 4px;
+  background-color: #3751fe;
+  transition: all 0.5s;
+}
+
+.skill-heading::before {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 0%;
+  height: 3px;
+  background-color: #3751fe;
+  transition: all 0.5s;
+}
+.skill-heading:hover {
+  color: #3751fe;
+}
+
+/* .www{
+  width:86%;
+} */
+.outline- {
+  outline: none;
+  color: rgb(54, 108, 225);
+}
+.abt :hover {
+  color: #3751fe;
+}
+.abt ::before {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 0%;
+  height: 3px;
+  background-color: #3751fe;
+  transition: all 0.5s;
+}
+.abt :hover::before {
+  width: 100%;
+}
+
+.password {
+  display: inline-block;
+  position: relative;
+  border: 0;
+}
+.password input {
+  outline: none;
+}
+.pass-icon {
+  position: absolute;
+  left: 635px;
+  width: 21px;
+  top: 4px;
+}
+
+.c {
+  column-gap: 209px;
+}
+
+.fontt {
+  font-family: "Poppins", sans-serif;
+  font-size: 3.75rem;
+  font-weight: 600;
+  line-height: 5.5rem;
+}
+.font-skill {
+  font-family: "Poppins", sans-serif;
+  font-size: 3.25rem;
+  font-weight: 400;
+}
+.font-about {
+  font-family: "Afacad Flux", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+  font-size: 20px;
+}
+.text-nav {
+  font-size: 1.4rem;
+}
