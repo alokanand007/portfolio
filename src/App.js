@@ -32,7 +32,7 @@ function App() {
         ],
       },
     ],
-    { basename: "/login_ui" }
+    { basename: "/portfolio" }
   );
 
   return (
